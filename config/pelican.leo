@@ -68,9 +68,11 @@
 <v t="leo.20180423103639.1"><vh>2020 五專網管G1</vh>
 <v t="leo.20180423103656.1"><vh>@clean 20200612(1).md</vh>
 <v t="leo.20200613133745.1"><vh>2020 W2-8</vh></v>
+<v t="leo.20200613155111.1"><vh>6719928391977856239</vh></v>
 </v>
 <v t="leo.20200613134118.1"><vh>@clean 20200612(2).md</vh>
 <v t="leo.20200613134124.1"><vh>2020 W9-16</vh></v>
+<v t="leo.20200613075138.1"><vh>561251934340930203</vh></v>
 </v>
 </v>
 </v>
@@ -122,6 +124,7 @@ Author: yen
 @others
 
 </t>
+<t tx="leo.20200613075138.1"></t>
 <t tx="leo.20200613133745.1">W2
 ----
 建立網站
@@ -831,6 +834,7 @@ try:
     g.es("已經將更新資料送往 Blogger!")
 except(client.AccessTokenRefreshError):
     g.es("error")</t>
+<t tx="leo.20200613155111.1"></t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
