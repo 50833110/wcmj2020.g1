@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>五專網際內容管理G1 - Misc</title><link href="./" rel="alternate"></link><link href=".%5Cfeeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2020-06-12T11:00:00+08:00</updated><entry><title>2020 五專網路安全管理G1(1)</title><link href=".%5C2020-WCM-W2-8-summary.html" rel="alternate"></link><published>2020-06-12T11:00:00+08:00</published><updated>2020-06-12T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:None,2020-06-12:.\2020-WCM-W2-8-summary.html</id><summary type="html">&lt;p&gt;總結這學期上課，所學和網管相關知識&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;總結這學期上課，所學和網管相關知識&lt;/p&gt;
+
+
+&lt;h2&gt;W2&lt;/h2&gt;
+&lt;p&gt;建立網站
+主要目的
+學習如何建立網站&lt;/p&gt;
+&lt;p&gt;附加目的
+1.記錄各週的課程內容&lt;/p&gt;
+&lt;p&gt;2.養成紀錄的習慣&lt;/p&gt;
+&lt;h2&gt;W3&lt;/h2&gt;
+&lt;p&gt;筆記
+terminology 專業術語、particular 特別、technical 技術、application 應用、&lt;/p&gt;
+&lt;p&gt;software 軟體、hardware 硬體、firmwarre 韌體、machine language 機器語言、&lt;/p&gt;
+&lt;p&gt;URL:Uniform Resourse Locator  統一資源定位、command wundow 命令視窗、submodule 子模組&lt;/p&gt;
+&lt;p&gt;程式令:&lt;/p&gt;
+&lt;p&gt;Y:←指y槽 Y:\   ←表示Y槽的root根目錄 &amp;gt; 為回應符號(prormptsign)  \ 為blackslash 反斜線 dir為顯示目錄內容的指令 cd tmp 表示change directory 到指定的目錄 git為分散式版次管理的指令名稱 git clone表示要使用git對遠端的倉儲進行clone。&lt;/p&gt;
+&lt;h2&gt;W4&lt;/h2&gt;
+&lt;p&gt;portable 可攜、Assembly 執行機器速度快但對硬體的相容性差、objective -c&lt;/p&gt;
+&lt;p&gt;→開發iphone的前一代程式、compile 編譯、interpret 解譯、unix電腦系統的一種、shell 殼、graphics 圖形、device 物件、interface 介面&lt;/p&gt;
+&lt;p&gt;ps.c++ →加入物件功能的C&lt;/p&gt;
+&lt;h2&gt;W6&lt;/h2&gt;
+&lt;p&gt;大致講解↓的用法和規格&lt;/p&gt;
+&lt;p&gt;portable obs →直播軟體&lt;/p&gt;
+&lt;p&gt;meet.google.com→google 的視訊軟體&lt;/p&gt;
+&lt;h2&gt;W7&lt;/h2&gt;
+&lt;p&gt;abunta→遠端操控電腦、asscii 美國標準交換資訊碼。 &lt;/p&gt;
+&lt;p&gt;tmp&amp;gt;wcmj2020&amp;gt;init.py   更改網頁標題&lt;/p&gt;
+&lt;h2&gt;W8&lt;/h2&gt;
+&lt;p&gt;網站push的步驟&lt;/p&gt;
+&lt;p&gt;1.先把網站切成靜態Home&lt;/p&gt;
+&lt;p&gt;2.git add空格.   →意思是跟電腦說現在要讀的東西&lt;/p&gt;
+&lt;p&gt;3.git comit -m"add w□" →跟電腦說你要讀的東西是什麼&lt;/p&gt;
+&lt;p&gt;4.git push →推上動態網頁&lt;/p&gt;
+&lt;p&gt;讓我們實作一次分組，弄meet.google.com的實際操作。好讓下次上課可以線上上課。&lt;/p&gt;
+&lt;p&gt;School IPV6 : [2001:288:6004:17::53]:3128(42.17.7.4)&lt;/p&gt;
+&lt;p&gt;Port : 140.130.17.53:3128&lt;/p&gt;
+&lt;p&gt;inter-net == inter - national&lt;/p&gt;
+&lt;p&gt;(inter network)&lt;/p&gt;
+&lt;p&gt;protocol 協定&lt;/p&gt;
+&lt;p&gt;tcp/ip == transmision control protocol / internet protocol&lt;/p&gt;
+&lt;p&gt;transmit 傳輸&lt;/p&gt;
+&lt;p&gt;edition 版本(瞬時)&lt;/p&gt;
+&lt;p&gt;Version 版本(較大的修改)&lt;/p&gt;
+&lt;p&gt;router 路由器&lt;/p&gt;
+&lt;p&gt;route 路徑&lt;/p&gt;
+&lt;p&gt;remote login 遠端登入&lt;/p&gt;
+&lt;p&gt;client &amp;lt;-&amp;gt; server&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;      www&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;browser &amp;lt;-&amp;gt; www server&lt;/p&gt;
+&lt;p&gt;HTTP&lt;/p&gt;
+&lt;p&gt;sttp client &amp;lt;-&amp;gt; sttp server&lt;/p&gt;
+&lt;p&gt;中華電信 DNS Server
+2001:b000:168::1&lt;/p&gt;
+&lt;p&gt;Type of computer
+1.Super computer&lt;/p&gt;
+&lt;p&gt;2.Mainframe&lt;/p&gt;
+&lt;p&gt;3.Server&lt;/p&gt;
+&lt;p&gt;4.Personal Computer&lt;/p&gt;
+&lt;p&gt;5.Microcontroler&lt;/p&gt;
+&lt;p&gt;6.Mobile phone&lt;/p&gt;
+&lt;p&gt;tele 遠&lt;/p&gt;
+&lt;p&gt;macro 巨大 (比原子atom大)&lt;/p&gt;</content><category term="Misc"></category><category term="2020WCM"></category></entry><entry><title>2020 五專網路安全管理G1(2)</title><link href=".%5C2020-WCM-W9-16-summary.html" rel="alternate"></link><published>2020-06-12T11:00:00+08:00</published><updated>2020-06-12T11:00:00+08:00</updated><author><name>yen</name></author><id>tag:None,2020-06-12:.\2020-WCM-W9-16-summary.html</id><summary type="html">&lt;p&gt;總結這學期上課，所學和網管相關知識&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;總結這學期上課，所學和網管相關知識&lt;/p&gt;
+
+
+&lt;h2&gt;W9&lt;/h2&gt;
+&lt;p&gt;電腦硬體架構
+主機螢幕周邊&lt;/p&gt;
+&lt;p&gt;主機:&lt;/p&gt;
+&lt;p&gt;主機板 MB&lt;/p&gt;
+&lt;p&gt;處理器 CPU&lt;/p&gt;
+&lt;p&gt;記憶體 RAM&lt;/p&gt;
+&lt;p&gt;顯示卡 GPU&lt;/p&gt;
+&lt;p&gt;電源供應器 PSU&lt;/p&gt;
+&lt;p&gt;硬碟 HDD,SSD&lt;/p&gt;
+&lt;h2&gt;電腦的種類&lt;/h2&gt;
+&lt;p&gt;Types Of Computer&lt;/p&gt;
+&lt;p&gt;Super Computer 超級電腦&lt;/p&gt;
+&lt;p&gt;MainFrame 伺服器主機&lt;/p&gt;
+&lt;p&gt;Server 伺服器&lt;/p&gt;
+&lt;p&gt;PC 個人電腦&lt;/p&gt;
+&lt;p&gt;Microcontroler 微控制器&lt;/p&gt;
+&lt;p&gt;Mobile Phone 智慧型手機&lt;/p&gt;
+&lt;h2&gt;w10-w11&lt;/h2&gt;
+&lt;p&gt;以 SSH 維護倉儲
+由於在電腦教室時採用純 IPv6 協定上網, 因此為了能夠在近端將倉儲改版資料推送到目前只接受 IPv4 協定連線的 github, 以下除了將原本以 https 對 github 連線, 改為以 ssh 協定連線外, 在 Windows 環境下必須利用 putty 與 plink, 設定 putty 格式的 .ppk 以及能夠同時支援 IPv4 與 IPv6 的代理主機.
+設定步驟如下:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;下載 Putty 工具組
+從 https://www.chiark.greenend.org.uk/~sgtatham/putty/ 下載一般版, 或從 http://jakub.kotrla.net/putty/ 下載特殊的可攜版本.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;利用 y:\portablegit\bin\sh.exe 進入 shell 命令環境後, 以 
+ssh-keygen -t rsa -b 4096 -C "使用者學號"
+在 /y/home/.ssh 目錄下建立 id_rsa 與 id_rsa.pub 等 private key 與 public key
+之後以 SciTE 開啟 id_rsa.pub 後, 將此 public key 的內容, 以新增添加到 Github.com 帳號下 personal settings -&amp;gt; SSH and GPG keys 頁面下.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;接下來要利用 puttygen.exe 將 id_rsa 轉為 Putty 可以解讀的 .ppk 格式, 並修改隨身系統的啟動批次檔案, 指定利用 putty 目錄下的 plink 執行 git 指令的網路代理設定.
+修改啟動的 start.bat 加入下列設定:
+set GIT_HOME=%Disk%:\portablegit\bin\
+set GIT_SSH=%Disk%:\putty\plink.exe&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;利用 puttygen.exe 載入第二步驟所建立的 private key, 也就是 id_rsa.
+開啟 puttygen 之後, 以右下方的 load 載入 id_rsa, 成功載入後, 利用 save private key 按鈕, 將已經轉為 putty 格式的 .ppk 存檔. 此一 .ppk 檔案必須在設定 putty 中 github.com session 時, 在 Connection-&amp;gt;SSH-&amp;gt;Auth 項目下, 將轉檔後的 .ppk 指向 private key file for authentication 欄位. 
+並在 Connection-&amp;gt;Proxy 項目下, 指定 Proxy type: HTTP, 並將 IPv6 代理主機設為 ::53 或 ::42 埠號設為 3128.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;之後確定 home 下的 .ssh 目錄中的 config 設定檔案為:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="o"&gt;#&lt;/span&gt; &lt;span class="k"&gt;no&lt;/span&gt; &lt;span class="n"&gt;proxy&lt;/span&gt; &lt;span class="k"&gt;at&lt;/span&gt; &lt;span class="n"&gt;home&lt;/span&gt;
+&lt;span class="o"&gt;#&lt;/span&gt;&lt;span class="n"&gt;ProxyCommand&lt;/span&gt; &lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;PortableGit&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;mingw64&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;bin&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;connect&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;exe&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;H&lt;/span&gt; &lt;span class="n"&gt;proxy&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mde&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;nfu&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;edu&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;tw&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;3128&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="n"&gt;h&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt;
+&lt;span class="o"&gt;#&lt;/span&gt; &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="n"&gt;git_ssh&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;putty&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;plink&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;exe&lt;/span&gt; &lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="n"&gt;auth&lt;/span&gt; &lt;span class="k"&gt;under&lt;/span&gt; &lt;span class="n"&gt;putty&lt;/span&gt; &lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt; &lt;span class="k"&gt;session&lt;/span&gt; &lt;span class="n"&gt;setup&lt;/span&gt;
+&lt;span class="n"&gt;ProxyCommand&lt;/span&gt; &lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;putty&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;plink&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;exe&lt;/span&gt; &lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="n"&gt;h&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt;
+
+&lt;span class="k"&gt;Host&lt;/span&gt; &lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;
+    &lt;span class="k"&gt;User&lt;/span&gt; &lt;span class="n"&gt;git&lt;/span&gt;
+    &lt;span class="n"&gt;Port&lt;/span&gt; &lt;span class="mi"&gt;22&lt;/span&gt;
+    &lt;span class="n"&gt;Hostname&lt;/span&gt; &lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt;
+
+    &lt;span class="o"&gt;#&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="k"&gt;connect&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;exe&lt;/span&gt; &lt;span class="n"&gt;need&lt;/span&gt; &lt;span class="n"&gt;openssh&lt;/span&gt; &lt;span class="k"&gt;key&lt;/span&gt; &lt;span class="n"&gt;format&lt;/span&gt;
+    &lt;span class="o"&gt;#&lt;/span&gt;&lt;span class="n"&gt;IdentityFile&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;y:\home\.ssh\id_rsa_mdecourse&amp;quot;&lt;/span&gt;
+    &lt;span class="o"&gt;#&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;plink&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;exe&lt;/span&gt; &lt;span class="n"&gt;need&lt;/span&gt; &lt;span class="n"&gt;rsa&lt;/span&gt; &lt;span class="k"&gt;key&lt;/span&gt; &lt;span class="n"&gt;format&lt;/span&gt; &lt;span class="n"&gt;but&lt;/span&gt; &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="k"&gt;under&lt;/span&gt; &lt;span class="n"&gt;putty&lt;/span&gt; &lt;span class="n"&gt;github&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;com&lt;/span&gt; &lt;span class="k"&gt;session&lt;/span&gt;
+    &lt;span class="o"&gt;#&lt;/span&gt; &lt;span class="n"&gt;plink&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;exe&lt;/span&gt; &lt;span class="k"&gt;do&lt;/span&gt; &lt;span class="k"&gt;not&lt;/span&gt; &lt;span class="n"&gt;need&lt;/span&gt; &lt;span class="n"&gt;the&lt;/span&gt; &lt;span class="n"&gt;following&lt;/span&gt; &lt;span class="n"&gt;setting&lt;/span&gt;
+    &lt;span class="o"&gt;#&lt;/span&gt;&lt;span class="n"&gt;IdentityFile&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;y:\home\.ssh\mdecourse_putty_private.ppk&amp;quot;&lt;/span&gt;
+
+    &lt;span class="n"&gt;TCPKeepAlive&lt;/span&gt; &lt;span class="n"&gt;yes&lt;/span&gt;
+    &lt;span class="n"&gt;IdentitiesOnly&lt;/span&gt; &lt;span class="n"&gt;yes&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ol&gt;
+&lt;li&gt;最後再將 wcmj2020 倉儲中 .git 目錄下的 config 檔案中的連線協定, 由 https 改為採 ssh 連線: 範例如下:
+&lt;pre class="brush:python"&gt;
+[core]
+    repositoryformatversion = 0
+    filemode = false
+    bare = false
+    logallrefupdates = true
+    symlinks = false
+    ignorecase = true
+[submodule]
+    active = .
+[remote "origin"]
+    #url = https://github.com/mdecourse/wcmj2020.git
+    url = git@github.com:mdecourse/wcmj2020.git
+    fetch = +refs/heads/&lt;em&gt;:refs/remotes/origin/&lt;/em&gt;
+[branch "master"]
+    remote = origin
+    merge = refs/heads/master
+[submodule "cmsimde"]
+    url = https://github.com/mdecourse/cmsimde.git
+    &lt;/pre&gt;
+之後就可以透過近端的 .ppk private key 與 Github.com 上的 public key 對應, 無需輸入帳號密碼就可以進行 git push.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;W12-W13&lt;/h2&gt;
+&lt;p&gt;Blogger API
+基本概念:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;這裡所指的 Blogger API 為: https://developers.google.com/blogger/docs/3.0/using&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;將 CMSiMDE 中的 Pelican Blog 內容同步到 Google Blogger 的目的, 在讓網際內容管理系統中的網誌原始資料修改過程具備版次, 而且可同時將網誌出版在 Github Pages 與 Google Blogger 中, 讓網際內容的保存較具有永續性.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Google Blogger 中的網誌系統各有獨立 ID, 這裡稱為 blog_id, 而網誌中的每一篇文章各有獨立 ID, 這裡稱為 post_id.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Google Blogger 管理者登入後, 在 Settings - Permissions 項下, 允許 invite more authors, 而且在 Settings - Permissions - Blog admins and Authors 項下, 允許將所邀請共同寫作的 Author 提升為 Admin 管理者.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Google 的每一個 API 都允許使用者建立以 Oauth2 為基礎的登入使用授權憑證, 配合所啟動的各種 API 程式庫, 一旦啟用並登入後, 可以透過程式方法, 呼叫程式庫功能, 對各種 Google 所提供的服務 (Blogger, Drive, Gmail, Calendar 等) 新增內容. 以 Blogger 而言, 只要使用者被設為某一網誌的共同作者, 即擁有在該網誌新增或編輯自己所發布的網誌文章權限.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;使用者登入 Google 帳號後, 在 https://console.developers.google.com 中所建立的 Oauth2 client ID, 可以下載存為 client_secrets.json 檔案.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;client_secrets.json 檔案則可以透過下列程式, 轉換為 credential_token.dat, 使用者針對特定啟用的 API 程式庫, 可以在讀取 credential_token.dat 的情況下, 取得與登入 Gmail 帳號相同的使用授權, 直接在擁有權限的 blog_id 中新增特定的文章 (並以特定的 post_id 辨識).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class="brush:python"&gt;
+# https://developers.google.com/blogger/docs/3.0/using
+# under Mac command + b to execute
+import pickle
+import os
+from googleapiclient.discovery import build
+from google_auth_oauthlib.flow import InstalledAppFlow
+
+SCOPES = ['https://www.googleapis.com/auth/blogger', ]
+
+# we check if the file tBo store the credentials exists
+if not os.path.exists('./../../yen_gm_blogger_token.dat'):
+
+    flow = InstalledAppFlow.from_client_secrets_file('./../../yen_gm_blogger_secrets.json', SCOPES)
+    credentials = flow.run_local_server()
+
+    with open('./../../yen_gm_blogger_token.dat', 'wb') as credentials_dat:
+        pickle.dump(credentials, credentials_dat)
+else:
+    with open('./../../yen_gm_blogger_token.dat', 'rb') as credentials_dat:
+        credentials = pickle.load(credentials_dat)
+service = build('blogger', 'v3', credentials=credentials)
+g.es(service)
+&lt;/pre&gt;
+
+&lt;h2&gt;W12&lt;/h2&gt;
+&lt;p&gt;Leo Editor 與 Pelican blog 使用說明影片&lt;/p&gt;
+&lt;h2&gt;W13&lt;/h2&gt;
+&lt;p&gt;Pelican Blog 內容與 Google Blogger 同步
+利用 Leo Editor 按鈕處理同步說明影片&lt;/p&gt;
+&lt;p&gt;利用 Windows 10 設定 -&amp;gt; 選擇預設網頁瀏覽器, 使用 Google Chrome 作為預設瀏覽器.&lt;/p&gt;
+&lt;p&gt;隨身程式系統必須安裝 google-api-python-client 與 oauth2client&lt;/p&gt;
+&lt;p&gt;pip install google-api-python-client oauth2client&lt;/p&gt;
+&lt;p&gt;OAuth 2.0 client IDs 程式類別可以選擇 other&lt;/p&gt;
+&lt;p&gt;使用者完成 client_secrets.json 設定後, 必須將檔案存在倉儲目錄外部&lt;/p&gt;
+&lt;p&gt;add_to_blogger 按鈕內容:&lt;/p&gt;
+&lt;pre class="brush:python"&gt;
+
+from markdown import markdown
+from oauth2client import client
+from googleapiclient import sample_tools
+import os
+
+os.environ['TZ'] = 'Asia/Taipei'
+argv = ""
+# 認證並建立服務
+# name of the api is "blogger", version is "v3"
+# description of the api is __doc__
+# file name of the application: location of client_secrets.json
+service, flags = sample_tools.init(
+  argv, 'blogger', 'v3', __doc__, "./../../client_secrets.json",
+  scope='https://www.googleapis.com/auth/blogger')
+
+
+def get_cat_tag_content(data):
+    # 請注意, 因為 data 來自 .md 的檔案 內容, 第1行為 ---
+    # 用跳行符號分割
+    data_list = data.split("\n")
+    #第 2 行為 title
+    title= data_list[1]
+    #第 4 行為 category
+    category = data_list[3]
+    #第 5 行為 tags
+    tags = data_list[4]
+    # 有多項資料的 content 型別為數列
+    # 再將第 9 行之後的資料數列串回成以跳行隔開的資料
+    content = "\n".join(data_list[8:])
+    # 先將截斷摘要與內文的 pelican md 檔按符號, 換成 Blogger 的 &lt;!--more--&gt;
+    content = content.replace('&lt;!-- PELICAN_END_SUMMARY --&gt;', '&lt;!--more--&gt;')
+    # 接著若內容有 ~~~python 與 ~~~ 則換成 Wordpress 格式
+    #content = content.replace('~~~python', '[code lang="python"]')
+    #content = content.replace('~~~', '[/code]')
+    return title, category, tags, content
+
+# 從目前所在節點的 body pan 中取出類別, tags 以及文章內容
+# p.h 為 @clean filename.md
+# 因為要使用 @clean 節點掛上為後的 blogger post_id, 因此改為讀 .md 檔案
+md_filename = p.h.split(" ")[1]
+with open(md_filename, 'r', encoding="utf-8") as content_file:
+    md_content = content_file.read()
+# title_str, category_str, tags_str, content = get_cat_tag_content(p.b)
+title_str, category_str, tags_str, content = get_cat_tag_content(md_content)
+category = category_str.split(":")[1]
+tags = tags_str.split(":")[1].split(",")
+tags.append(category)
+# title 是一個單獨的字串
+title = title_str.split(":")[1]
+# 將 markdown 格式 content 轉為 html
+content = markdown(content)
+# 以下處理 content 的 &lt;h2&gt; 標題
+content = content.replace("&lt;h2&gt;", "&lt;h2&gt;&lt;font size='4'&gt;")
+content = content.replace("&lt;/h2&gt;", "&lt;/font&gt;&lt;/h2&gt;")
+# g.es(content)
+
+try:
+    '''
+    users = service.users()
+    # 取得使用者 profile 資料
+    user = users.get(userId='self').execute()
+    print('網誌名稱: %s' % user['displayName'])
+    '''
+    blogs = service.blogs()
+    # 取得使用者所建立網誌名稱
+    blogs = blogs.listByUser(userId='self').execute()
+    # post_id is now blogs["items"][0]["id"]
+    blog_id = blogs["items"][0]["id"]
+    #for blog in blogs['items']:
+        #print(blog['name'], blog['url'])
+    posts = service.posts()
+    # 新增網誌 post 時, 需要 post_id
+    body = {
+    "kind": "blogger#post",
+    "id": blog_id,
+    "title": title,
+    # 利用 markdown 函式, 將 .md 的內文轉為 html, 作為 Blogger 的文章內容
+    "content": content,
+    "labels": tags
+    }
+    insert = posts.insert(blogId=blog_id, body=body)
+    posts_doc = insert.execute()
+    post_id = posts_doc["id"]
+    #print(posts_doc)
+    os.remove("blogger.dat")
+    # 利用最後的 child 節點來儲存 post_id
+    to_save_post_id = p.insertAsLastChild()  
+    # 改為內文為空的節點, id 直接標在 head 標題
+    to_save_post_id.b = ""
+    to_save_post_id.h = post_id
+    # 因為新增節點, commander 必須 redraw
+    c.redraw()
+    g.es("post_id 為", post_id)
+    g.es("已經將資料送往 Blogger!")
+except(client.AccessTokenRefreshError):
+    g.es("error")
+    &lt;/pre&gt;
+
+&lt;p&gt;edit_to_blogger 按鈕內容:
+&lt;pre class="brush:python"&gt;
+from markdown import markdown
+from oauth2client import client
+from googleapiclient import sample_tools
+import os&lt;/p&gt;
+&lt;p&gt;os.environ['TZ'] = 'Asia/Taipei'
+argv = ""&lt;/p&gt;
+&lt;h1&gt;認證並建立服務&lt;/h1&gt;
+&lt;h1&gt;name of the api is "blogger", version is "v3"&lt;/h1&gt;
+&lt;h1&gt;description of the api is &lt;strong&gt;doc&lt;/strong&gt;&lt;/h1&gt;
+&lt;h1&gt;file name of the application: location of client_secrets.json&lt;/h1&gt;
+&lt;p&gt;service, flags = sample_tools.init(
+  argv, 'blogger', 'v3', &lt;strong&gt;doc&lt;/strong&gt;, "./../../client_secrets.json",
+  scope='https://www.googleapis.com/auth/blogger')&lt;/p&gt;
+&lt;p&gt;def get_cat_tag_content(data):
+    # 請注意, 因為 data 來自 .md 的檔案 內容, 第1行為 ---
+    # 用跳行符號分割
+    data_list = data.split("\n")
+    #第 2 行為 title
+    title= data_list[1]
+    #第 4 行為 category
+    category = data_list[3]
+    #第 5 行為 tags
+    tags = data_list[4]
+    # 有多項資料的 content 型別為數列
+    # 再將第 9 行之後的資料數列串回成以跳行隔開的資料
+    content = "\n".join(data_list[8:])
+    # 先將截斷摘要與內文的 pelican md 檔按符號, 換成 Blogger 的 &lt;!--more--&gt;
+    content = content.replace('&lt;!-- PELICAN_END_SUMMARY --&gt;', '&lt;!--more--&gt;')
+    # 接著若內容有 ~~~python 與 ~~~ 則換成 Wordpress 格式
+    #content = content.replace('~~~python', '[code lang="python"]')
+    #content = content.replace('~~~', '[/code]')
+    return title, category, tags, content&lt;/p&gt;
+&lt;h1&gt;從目前所在節點的 body pan 中取出類別, tags 以及文章內容&lt;/h1&gt;
+&lt;h1&gt;p.h 為 @clean filename.md&lt;/h1&gt;
+&lt;h1&gt;因為要使用 @clean 節點掛上為後的 blogger post_id, 因此改為讀 .md 檔案&lt;/h1&gt;
+&lt;p&gt;md_filename = p.h.split(" ")[1]
+with open(md_filename, 'r', encoding="utf-8") as content_file:
+    md_content = content_file.read()&lt;/p&gt;
+&lt;h1&gt;title_str, category_str, tags_str, content = get_cat_tag_content(p.b)&lt;/h1&gt;
+&lt;p&gt;title_str, category_str, tags_str, content = get_cat_tag_content(md_content)
+category = category_str.split(":")[1]
+tags = tags_str.split(":")[1].split(",")
+tags.append(category)&lt;/p&gt;
+&lt;h1&gt;title 是一個單獨的字串&lt;/h1&gt;
+&lt;p&gt;title = title_str.split(":")[1]&lt;/p&gt;
+&lt;h1&gt;將 markdown 格式 content 轉為 html&lt;/h1&gt;
+&lt;p&gt;content = markdown(content)&lt;/p&gt;
+&lt;h1&gt;以下處理 content 的 &lt;h2&gt; 標題&lt;/h1&gt;
+&lt;p&gt;content = content.replace("&lt;h2&gt;", "&lt;h2&gt;&lt;font size='4'&gt;")
+content = content.replace("&lt;/h2&gt;", "&lt;/font&gt;&lt;/h2&gt;")&lt;/p&gt;
+&lt;h1&gt;g.es(content)&lt;/h1&gt;
+&lt;p&gt;try:
+    blogs = service.blogs()
+    # 取得使用者所建立網誌名稱
+    blogs = blogs.listByUser(userId='self').execute()
+    blog_id = blogs["items"][0]["id"]
+    # 設法取得原 post 的 id
+    postid_outline = p.getLastChild()
+    # 直接從標題取得 post 的 id 號碼
+    post_id = postid_outline.h
+    posts = service.posts()
+    # 更新網誌文章時的 body
+    body = {
+    "kind": "blogger#post",
+    "title": title,
+    "content": content
+    }
+    # need to save postId to outline head
+    update = posts.update(blogId=blog_id, postId=post_id, body=body, publish=True)
+    update_doc = update.execute()
+    os.remove("blogger.dat")
+    g.es("post_id 為", post_id)
+    g.es("已經將更新資料送往 Blogger!")
+except(client.AccessTokenRefreshError):
+    g.es("error")
+&lt;/pre&gt;&lt;/p&gt;
+&lt;h2&gt;W14&lt;/h2&gt;
+&lt;p&gt;從 https://2019wcm.blogspot.com/2019/03/posted-via-python.html 取得Google Blogger Python API 程式, 修改後執行, 測試是否可以讀取設定的 client_secrets.json, 在各自的 Blogger ID 與 Post ID 中新增或修改網誌文章.&lt;/p&gt;
+&lt;p&gt;以 Blogger Python API 程式修改文章的教學影片 (for @gm users only)&lt;/p&gt;
+&lt;p&gt;直接在操作系統建立網際內容管理合用系統&lt;/p&gt;
+&lt;p&gt;Windows 10 64 位元操作系統&lt;/p&gt;
+&lt;p&gt;安裝 Python 3.8.3 與 pip&lt;/p&gt;
+&lt;p&gt;至 https://www.python.org/downloads/windows/ 下載 Python 3.8.3 Windows x86-64 executable installer&lt;/p&gt;
+&lt;p&gt;可以直接選擇安裝 pip 與所有選項內容&lt;/p&gt;
+&lt;p&gt;安裝 Git&lt;/p&gt;
+&lt;p&gt;利用 64-bit Git for Windows Setup 安裝 Git 工具.&lt;/p&gt;
+&lt;p&gt;安裝 CMSiMDE 所需模組&lt;/p&gt;
+&lt;p&gt;利用 cmd 開啟命令列視窗, 以 pip 安裝 flask flask_cors lxml bs4 markdown pelican leo 等模組&lt;/p&gt;
+&lt;p&gt;pip install  flask flask_cors lxml bs4 markdown pelican leo&lt;/p&gt;
+&lt;p&gt;Ubuntu 20.04 操作系統 (請下載 W12 Virtualbox 虛擬主機檔案)&lt;/p&gt;
+&lt;p&gt;Ubuntu 20.04 同時存在 Python 2.7 與 Python 3.8.2,  CMSiMDE 只相容於 Python 3.8.2, 因此啟動指令必須使用:&lt;/p&gt;
+&lt;p&gt;python3 wsgi.py&lt;/p&gt;
+&lt;p&gt;與 &lt;/p&gt;
+&lt;p&gt;pip3 install  flask flask_cors lxml bs4 markdown pelican leo&lt;/p&gt;
+&lt;p&gt;Mac OS X 操作系統&lt;/p&gt;
+&lt;p&gt;與 Ubuntu 2&lt;/p&gt;</content><category term="Misc"></category><category term="2020WCM"></category></entry></feed>

@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+
+  <title>2020 五專網路安全管理G1(2)</title>
+
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="referrer" content="origin" />
+  <meta name="generator" content="Pelican" />
+  <link href="./" rel="canonical" />
+
+  <!-- Feed -->
+        <link href="./feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="五專網際內容管理G1 Full Atom Feed" />
+          <link href="./feeds/{slug}.atom.xml" type="application/atom+xml" rel="alternate" title="五專網際內容管理G1 Categories Atom Feed" />
+
+  <link href="./theme/css/style.css" type="text/css" rel="stylesheet" />
+
+  <!-- Code highlight color scheme -->
+      <link href="./theme/css/code_blocks/tomorrow_night.css" rel="stylesheet">
+
+  
+    <link href="./theme/tipuesearch/tipuesearch.css" rel="stylesheet">
+
+  <!-- Custom fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css" />
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+
+    <link href="./2020-WCM-W9-16-summary.html" rel="canonical" />
+
+        <meta name="description" content="總結這學期上課，所學和網管相關知識">
+
+        <meta name="author" content="yen">
+
+        <meta name="tags" content="2020WCM">
+
+
+
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="五專網際內容管理G1"/>
+<meta property="og:title" content="2020 五專網路安全管理G1(2)"/>
+<meta property="og:description" content="總結這學期上課，所學和網管相關知識"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="./2020-WCM-W9-16-summary.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2020-06-12 11:00:00+08:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="./author/yen.html">
+<meta property="article:section" content="Misc"/>
+<meta property="article:tag" content="2020WCM"/>
+<meta property="og:image" content="./theme/images/post-bg.jpg">
+
+<!-- Twitter Card -->
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "name": "2020 五專網路安全管理G1(2)",
+  "headline": "2020 五專網路安全管理G1(2)",
+  "datePublished": "2020-06-12 11:00:00+08:00",
+  "dateModified": "",
+  "author": {
+    "@type": "Person",
+    "name": "yen",
+    "url": "./author/yen.html"
+  },
+  "image": "./theme/images/post-bg.jpg",
+  "url": "./2020-WCM-W9-16-summary.html",
+  "description": "總結這學期上課，所學和網管相關知識"
+}
+</script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushBash.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type='text/javascript'>
+	(function(){
+		var corecss = document.createElement('link');
+		var themecss = document.createElement('link');
+		var corecssurl = "./../cmsimde/static/syntaxhighlighter/css/shCore.css";
+		if ( corecss.setAttribute ) {
+				corecss.setAttribute( "rel", "stylesheet" );
+				corecss.setAttribute( "type", "text/css" );
+				corecss.setAttribute( "href", corecssurl );
+		} else {
+				corecss.rel = "stylesheet";
+				corecss.href = corecssurl;
+		}
+		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
+		var themecssurl = "./../cmsimde/static/syntaxhighlighter/css/shThemeDefault.css?ver=3.0.9b";
+		if ( themecss.setAttribute ) {
+				themecss.setAttribute( "rel", "stylesheet" );
+				themecss.setAttribute( "type", "text/css" );
+				themecss.setAttribute( "href", themecssurl );
+		} else {
+				themecss.rel = "stylesheet";
+				themecss.href = themecssurl;
+		}
+		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
+		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
+	})();
+	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
+	SyntaxHighlighter.config.strings.help = '?';
+	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
+	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
+	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
+	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
+	SyntaxHighlighter.defaults['toolbar'] = false;
+	SyntaxHighlighter.all();
+</script>
+
+<!-- for LaTeX equations -->
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+
+</head>
+<!-- TODO : Body class -->
+<body class="home-template">
+
+<nav id="menu">
+  <a class="close-button">Close</a>
+  <div class="nav-wrapper">
+    <p class="nav-label">Menu</p>
+    <ul>
+    <!--
+
+              <li role="presentation"><a href="./pages/about/">About</a></li>
+      -->
+
+            <li><a href="./pages/about/index.html">About</span></a></li>
+            
+            <li><a href="./archives.html">Archives</span></a></li>
+            
+            <li><a href="./categories.html">Categories</span></a></li>
+            
+            <li><a href="./tags.html">Tags</span></a></li>
+
+    </ul>
+  </div>
+</nav>
+    <!-- Progressbar -->
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header id="post-header" class="has-cover">
+      <div class="inner">
+        <nav id="navigation">
+            <span id="home-button" class="nav-button">
+                <a class="home-button" href="./index.html" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+            </span>
+          <span id="menu-button" class="nav-button">
+            <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
+          </span>
+        </nav>
+        <h1 class="post-title">2020 五專網路安全管理G1(2)</h1>
+        <!-- TODO : Proper class for headline -->
+        <span class="post-meta">
+                <a href="./author/yen.html">Yen</a>
+            | <time datetime="週五 12 六月 2020">週五 12 六月 2020</time>
+        </span>
+        <!-- TODO : Modified check -->
+            <div class="post-cover cover" style="background-image: url('./theme/images/post-bg.jpg')">
+      </div>
+    </header>
+
+  <section id="wrapper">
+    <a class="hidden-close"></a>
+
+<section class="search">
+      <form class="navbar-search" action="./search.html">
+      <input type="text"  placeholder="Search" name="q" id="tipue_search_input" required>
+    </form>
+</section>
+
+
+    <!-- Post content -->
+    <main class="content" role="main">
+        <article class="post">
+        <div class="inner">
+            <section class="post-content">
+                <p>總結這學期上課，所學和網管相關知識</p>
+
+
+<h2>W9</h2>
+<p>電腦硬體架構
+主機螢幕周邊</p>
+<p>主機:</p>
+<p>主機板 MB</p>
+<p>處理器 CPU</p>
+<p>記憶體 RAM</p>
+<p>顯示卡 GPU</p>
+<p>電源供應器 PSU</p>
+<p>硬碟 HDD,SSD</p>
+<h2>電腦的種類</h2>
+<p>Types Of Computer</p>
+<p>Super Computer 超級電腦</p>
+<p>MainFrame 伺服器主機</p>
+<p>Server 伺服器</p>
+<p>PC 個人電腦</p>
+<p>Microcontroler 微控制器</p>
+<p>Mobile Phone 智慧型手機</p>
+<h2>w10-w11</h2>
+<p>以 SSH 維護倉儲
+由於在電腦教室時採用純 IPv6 協定上網, 因此為了能夠在近端將倉儲改版資料推送到目前只接受 IPv4 協定連線的 github, 以下除了將原本以 https 對 github 連線, 改為以 ssh 協定連線外, 在 Windows 環境下必須利用 putty 與 plink, 設定 putty 格式的 .ppk 以及能夠同時支援 IPv4 與 IPv6 的代理主機.
+設定步驟如下:</p>
+<ol>
+<li>
+<p>下載 Putty 工具組
+從 https://www.chiark.greenend.org.uk/~sgtatham/putty/ 下載一般版, 或從 http://jakub.kotrla.net/putty/ 下載特殊的可攜版本.</p>
+</li>
+<li>
+<p>利用 y:\portablegit\bin\sh.exe 進入 shell 命令環境後, 以 
+ssh-keygen -t rsa -b 4096 -C "使用者學號"
+在 /y/home/.ssh 目錄下建立 id_rsa 與 id_rsa.pub 等 private key 與 public key
+之後以 SciTE 開啟 id_rsa.pub 後, 將此 public key 的內容, 以新增添加到 Github.com 帳號下 personal settings -&gt; SSH and GPG keys 頁面下.</p>
+</li>
+<li>
+<p>接下來要利用 puttygen.exe 將 id_rsa 轉為 Putty 可以解讀的 .ppk 格式, 並修改隨身系統的啟動批次檔案, 指定利用 putty 目錄下的 plink 執行 git 指令的網路代理設定.
+修改啟動的 start.bat 加入下列設定:
+set GIT_HOME=%Disk%:\portablegit\bin\
+set GIT_SSH=%Disk%:\putty\plink.exe</p>
+</li>
+<li>
+<p>利用 puttygen.exe 載入第二步驟所建立的 private key, 也就是 id_rsa.
+開啟 puttygen 之後, 以右下方的 load 載入 id_rsa, 成功載入後, 利用 save private key 按鈕, 將已經轉為 putty 格式的 .ppk 存檔. 此一 .ppk 檔案必須在設定 putty 中 github.com session 時, 在 Connection-&gt;SSH-&gt;Auth 項目下, 將轉檔後的 .ppk 指向 private key file for authentication 欄位. 
+並在 Connection-&gt;Proxy 項目下, 指定 Proxy type: HTTP, 並將 IPv6 代理主機設為 ::53 或 ::42 埠號設為 3128.</p>
+</li>
+<li>
+<p>之後確定 home 下的 .ssh 目錄中的 config 設定檔案為:</p>
+</li>
+</ol>
+<div class="highlight"><pre><span></span><code><span class="o">#</span> <span class="k">no</span> <span class="n">proxy</span> <span class="k">at</span> <span class="n">home</span>
+<span class="o">#</span><span class="n">ProxyCommand</span> <span class="n">y</span><span class="p">:</span><span class="o">/</span><span class="n">PortableGit</span><span class="o">/</span><span class="n">mingw64</span><span class="o">/</span><span class="n">bin</span><span class="o">/</span><span class="k">connect</span><span class="p">.</span><span class="n">exe</span> <span class="o">-</span><span class="n">H</span> <span class="n">proxy</span><span class="p">.</span><span class="n">mde</span><span class="p">.</span><span class="n">nfu</span><span class="p">.</span><span class="n">edu</span><span class="p">.</span><span class="n">tw</span><span class="p">:</span><span class="mi">3128</span> <span class="o">%</span><span class="n">h</span> <span class="o">%</span><span class="n">p</span>
+<span class="o">#</span> <span class="k">set</span> <span class="n">git_ssh</span><span class="o">=</span><span class="n">y</span><span class="p">:</span><span class="o">/</span><span class="n">putty</span><span class="o">/</span><span class="n">plink</span><span class="p">.</span><span class="n">exe</span> <span class="k">with</span> <span class="n">auth</span> <span class="k">under</span> <span class="n">putty</span> <span class="n">github</span><span class="p">.</span><span class="n">com</span> <span class="k">session</span> <span class="n">setup</span>
+<span class="n">ProxyCommand</span> <span class="n">y</span><span class="p">:</span><span class="o">/</span><span class="n">putty</span><span class="o">/</span><span class="n">plink</span><span class="p">.</span><span class="n">exe</span> <span class="n">github</span><span class="p">.</span><span class="n">com</span> <span class="o">%</span><span class="n">h</span> <span class="o">%</span><span class="n">p</span>
+
+<span class="k">Host</span> <span class="n">github</span><span class="p">.</span><span class="n">com</span>
+    <span class="k">User</span> <span class="n">git</span>
+    <span class="n">Port</span> <span class="mi">22</span>
+    <span class="n">Hostname</span> <span class="n">github</span><span class="p">.</span><span class="n">com</span>
+
+    <span class="o">#</span> <span class="k">for</span> <span class="k">connect</span><span class="p">.</span><span class="n">exe</span> <span class="n">need</span> <span class="n">openssh</span> <span class="k">key</span> <span class="n">format</span>
+    <span class="o">#</span><span class="n">IdentityFile</span> <span class="ss">&quot;y:\home\.ssh\id_rsa_mdecourse&quot;</span>
+    <span class="o">#</span> <span class="k">for</span> <span class="n">plink</span><span class="p">.</span><span class="n">exe</span> <span class="n">need</span> <span class="n">rsa</span> <span class="k">key</span> <span class="n">format</span> <span class="n">but</span> <span class="k">set</span> <span class="k">under</span> <span class="n">putty</span> <span class="n">github</span><span class="p">.</span><span class="n">com</span> <span class="k">session</span>
+    <span class="o">#</span> <span class="n">plink</span><span class="p">.</span><span class="n">exe</span> <span class="k">do</span> <span class="k">not</span> <span class="n">need</span> <span class="n">the</span> <span class="n">following</span> <span class="n">setting</span>
+    <span class="o">#</span><span class="n">IdentityFile</span> <span class="ss">&quot;y:\home\.ssh\mdecourse_putty_private.ppk&quot;</span>
+
+    <span class="n">TCPKeepAlive</span> <span class="n">yes</span>
+    <span class="n">IdentitiesOnly</span> <span class="n">yes</span>
+</code></pre></div>
+
+
+<ol>
+<li>最後再將 wcmj2020 倉儲中 .git 目錄下的 config 檔案中的連線協定, 由 https 改為採 ssh 連線: 範例如下:
+<pre class="brush:python">
+[core]
+    repositoryformatversion = 0
+    filemode = false
+    bare = false
+    logallrefupdates = true
+    symlinks = false
+    ignorecase = true
+[submodule]
+    active = .
+[remote "origin"]
+    #url = https://github.com/mdecourse/wcmj2020.git
+    url = git@github.com:mdecourse/wcmj2020.git
+    fetch = +refs/heads/<em>:refs/remotes/origin/</em>
+[branch "master"]
+    remote = origin
+    merge = refs/heads/master
+[submodule "cmsimde"]
+    url = https://github.com/mdecourse/cmsimde.git
+    </pre>
+之後就可以透過近端的 .ppk private key 與 Github.com 上的 public key 對應, 無需輸入帳號密碼就可以進行 git push.</li>
+</ol>
+<h2>W12-W13</h2>
+<p>Blogger API
+基本概念:</p>
+<ol>
+<li>
+<p>這裡所指的 Blogger API 為: https://developers.google.com/blogger/docs/3.0/using</p>
+</li>
+<li>
+<p>將 CMSiMDE 中的 Pelican Blog 內容同步到 Google Blogger 的目的, 在讓網際內容管理系統中的網誌原始資料修改過程具備版次, 而且可同時將網誌出版在 Github Pages 與 Google Blogger 中, 讓網際內容的保存較具有永續性.</p>
+</li>
+<li>
+<p>Google Blogger 中的網誌系統各有獨立 ID, 這裡稱為 blog_id, 而網誌中的每一篇文章各有獨立 ID, 這裡稱為 post_id.</p>
+</li>
+<li>
+<p>Google Blogger 管理者登入後, 在 Settings - Permissions 項下, 允許 invite more authors, 而且在 Settings - Permissions - Blog admins and Authors 項下, 允許將所邀請共同寫作的 Author 提升為 Admin 管理者.</p>
+</li>
+<li>
+<p>Google 的每一個 API 都允許使用者建立以 Oauth2 為基礎的登入使用授權憑證, 配合所啟動的各種 API 程式庫, 一旦啟用並登入後, 可以透過程式方法, 呼叫程式庫功能, 對各種 Google 所提供的服務 (Blogger, Drive, Gmail, Calendar 等) 新增內容. 以 Blogger 而言, 只要使用者被設為某一網誌的共同作者, 即擁有在該網誌新增或編輯自己所發布的網誌文章權限.</p>
+</li>
+<li>
+<p>使用者登入 Google 帳號後, 在 https://console.developers.google.com 中所建立的 Oauth2 client ID, 可以下載存為 client_secrets.json 檔案.</p>
+</li>
+<li>
+<p>client_secrets.json 檔案則可以透過下列程式, 轉換為 credential_token.dat, 使用者針對特定啟用的 API 程式庫, 可以在讀取 credential_token.dat 的情況下, 取得與登入 Gmail 帳號相同的使用授權, 直接在擁有權限的 blog_id 中新增特定的文章 (並以特定的 post_id 辨識).</p>
+</li>
+</ol>
+<pre class="brush:python">
+# https://developers.google.com/blogger/docs/3.0/using
+# under Mac command + b to execute
+import pickle
+import os
+from googleapiclient.discovery import build
+from google_auth_oauthlib.flow import InstalledAppFlow
+
+SCOPES = ['https://www.googleapis.com/auth/blogger', ]
+
+# we check if the file tBo store the credentials exists
+if not os.path.exists('./../../yen_gm_blogger_token.dat'):
+
+    flow = InstalledAppFlow.from_client_secrets_file('./../../yen_gm_blogger_secrets.json', SCOPES)
+    credentials = flow.run_local_server()
+
+    with open('./../../yen_gm_blogger_token.dat', 'wb') as credentials_dat:
+        pickle.dump(credentials, credentials_dat)
+else:
+    with open('./../../yen_gm_blogger_token.dat', 'rb') as credentials_dat:
+        credentials = pickle.load(credentials_dat)
+service = build('blogger', 'v3', credentials=credentials)
+g.es(service)
+</pre>
+
+<h2>W12</h2>
+<p>Leo Editor 與 Pelican blog 使用說明影片</p>
+<h2>W13</h2>
+<p>Pelican Blog 內容與 Google Blogger 同步
+利用 Leo Editor 按鈕處理同步說明影片</p>
+<p>利用 Windows 10 設定 -&gt; 選擇預設網頁瀏覽器, 使用 Google Chrome 作為預設瀏覽器.</p>
+<p>隨身程式系統必須安裝 google-api-python-client 與 oauth2client</p>
+<p>pip install google-api-python-client oauth2client</p>
+<p>OAuth 2.0 client IDs 程式類別可以選擇 other</p>
+<p>使用者完成 client_secrets.json 設定後, 必須將檔案存在倉儲目錄外部</p>
+<p>add_to_blogger 按鈕內容:</p>
+<pre class="brush:python">
+
+from markdown import markdown
+from oauth2client import client
+from googleapiclient import sample_tools
+import os
+
+os.environ['TZ'] = 'Asia/Taipei'
+argv = ""
+# 認證並建立服務
+# name of the api is "blogger", version is "v3"
+# description of the api is __doc__
+# file name of the application: location of client_secrets.json
+service, flags = sample_tools.init(
+  argv, 'blogger', 'v3', __doc__, "./../../client_secrets.json",
+  scope='https://www.googleapis.com/auth/blogger')
+
+
+def get_cat_tag_content(data):
+    # 請注意, 因為 data 來自 .md 的檔案 內容, 第1行為 ---
+    # 用跳行符號分割
+    data_list = data.split("\n")
+    #第 2 行為 title
+    title= data_list[1]
+    #第 4 行為 category
+    category = data_list[3]
+    #第 5 行為 tags
+    tags = data_list[4]
+    # 有多項資料的 content 型別為數列
+    # 再將第 9 行之後的資料數列串回成以跳行隔開的資料
+    content = "\n".join(data_list[8:])
+    # 先將截斷摘要與內文的 pelican md 檔按符號, 換成 Blogger 的 <!--more-->
+    content = content.replace('<!-- PELICAN_END_SUMMARY -->', '<!--more-->')
+    # 接著若內容有 ~~~python 與 ~~~ 則換成 Wordpress 格式
+    #content = content.replace('~~~python', '[code lang="python"]')
+    #content = content.replace('~~~', '[/code]')
+    return title, category, tags, content
+
+# 從目前所在節點的 body pan 中取出類別, tags 以及文章內容
+# p.h 為 @clean filename.md
+# 因為要使用 @clean 節點掛上為後的 blogger post_id, 因此改為讀 .md 檔案
+md_filename = p.h.split(" ")[1]
+with open(md_filename, 'r', encoding="utf-8") as content_file:
+    md_content = content_file.read()
+# title_str, category_str, tags_str, content = get_cat_tag_content(p.b)
+title_str, category_str, tags_str, content = get_cat_tag_content(md_content)
+category = category_str.split(":")[1]
+tags = tags_str.split(":")[1].split(",")
+tags.append(category)
+# title 是一個單獨的字串
+title = title_str.split(":")[1]
+# 將 markdown 格式 content 轉為 html
+content = markdown(content)
+# 以下處理 content 的 <h2> 標題
+content = content.replace("<h2>", "<h2><font size='4'>")
+content = content.replace("</h2>", "</font></h2>")
+# g.es(content)
+
+try:
+    '''
+    users = service.users()
+    # 取得使用者 profile 資料
+    user = users.get(userId='self').execute()
+    print('網誌名稱: %s' % user['displayName'])
+    '''
+    blogs = service.blogs()
+    # 取得使用者所建立網誌名稱
+    blogs = blogs.listByUser(userId='self').execute()
+    # post_id is now blogs["items"][0]["id"]
+    blog_id = blogs["items"][0]["id"]
+    #for blog in blogs['items']:
+        #print(blog['name'], blog['url'])
+    posts = service.posts()
+    # 新增網誌 post 時, 需要 post_id
+    body = {
+    "kind": "blogger#post",
+    "id": blog_id,
+    "title": title,
+    # 利用 markdown 函式, 將 .md 的內文轉為 html, 作為 Blogger 的文章內容
+    "content": content,
+    "labels": tags
+    }
+    insert = posts.insert(blogId=blog_id, body=body)
+    posts_doc = insert.execute()
+    post_id = posts_doc["id"]
+    #print(posts_doc)
+    os.remove("blogger.dat")
+    # 利用最後的 child 節點來儲存 post_id
+    to_save_post_id = p.insertAsLastChild()  
+    # 改為內文為空的節點, id 直接標在 head 標題
+    to_save_post_id.b = ""
+    to_save_post_id.h = post_id
+    # 因為新增節點, commander 必須 redraw
+    c.redraw()
+    g.es("post_id 為", post_id)
+    g.es("已經將資料送往 Blogger!")
+except(client.AccessTokenRefreshError):
+    g.es("error")
+    </pre>
+
+<p>edit_to_blogger 按鈕內容:
+<pre class="brush:python">
+from markdown import markdown
+from oauth2client import client
+from googleapiclient import sample_tools
+import os</p>
+<p>os.environ['TZ'] = 'Asia/Taipei'
+argv = ""</p>
+<h1>認證並建立服務</h1>
+<h1>name of the api is "blogger", version is "v3"</h1>
+<h1>description of the api is <strong>doc</strong></h1>
+<h1>file name of the application: location of client_secrets.json</h1>
+<p>service, flags = sample_tools.init(
+  argv, 'blogger', 'v3', <strong>doc</strong>, "./../../client_secrets.json",
+  scope='https://www.googleapis.com/auth/blogger')</p>
+<p>def get_cat_tag_content(data):
+    # 請注意, 因為 data 來自 .md 的檔案 內容, 第1行為 ---
+    # 用跳行符號分割
+    data_list = data.split("\n")
+    #第 2 行為 title
+    title= data_list[1]
+    #第 4 行為 category
+    category = data_list[3]
+    #第 5 行為 tags
+    tags = data_list[4]
+    # 有多項資料的 content 型別為數列
+    # 再將第 9 行之後的資料數列串回成以跳行隔開的資料
+    content = "\n".join(data_list[8:])
+    # 先將截斷摘要與內文的 pelican md 檔按符號, 換成 Blogger 的 <!--more-->
+    content = content.replace('<!-- PELICAN_END_SUMMARY -->', '<!--more-->')
+    # 接著若內容有 ~~~python 與 ~~~ 則換成 Wordpress 格式
+    #content = content.replace('~~~python', '[code lang="python"]')
+    #content = content.replace('~~~', '[/code]')
+    return title, category, tags, content</p>
+<h1>從目前所在節點的 body pan 中取出類別, tags 以及文章內容</h1>
+<h1>p.h 為 @clean filename.md</h1>
+<h1>因為要使用 @clean 節點掛上為後的 blogger post_id, 因此改為讀 .md 檔案</h1>
+<p>md_filename = p.h.split(" ")[1]
+with open(md_filename, 'r', encoding="utf-8") as content_file:
+    md_content = content_file.read()</p>
+<h1>title_str, category_str, tags_str, content = get_cat_tag_content(p.b)</h1>
+<p>title_str, category_str, tags_str, content = get_cat_tag_content(md_content)
+category = category_str.split(":")[1]
+tags = tags_str.split(":")[1].split(",")
+tags.append(category)</p>
+<h1>title 是一個單獨的字串</h1>
+<p>title = title_str.split(":")[1]</p>
+<h1>將 markdown 格式 content 轉為 html</h1>
+<p>content = markdown(content)</p>
+<h1>以下處理 content 的 <h2> 標題</h1>
+<p>content = content.replace("<h2>", "<h2><font size='4'>")
+content = content.replace("</h2>", "</font></h2>")</p>
+<h1>g.es(content)</h1>
+<p>try:
+    blogs = service.blogs()
+    # 取得使用者所建立網誌名稱
+    blogs = blogs.listByUser(userId='self').execute()
+    blog_id = blogs["items"][0]["id"]
+    # 設法取得原 post 的 id
+    postid_outline = p.getLastChild()
+    # 直接從標題取得 post 的 id 號碼
+    post_id = postid_outline.h
+    posts = service.posts()
+    # 更新網誌文章時的 body
+    body = {
+    "kind": "blogger#post",
+    "title": title,
+    "content": content
+    }
+    # need to save postId to outline head
+    update = posts.update(blogId=blog_id, postId=post_id, body=body, publish=True)
+    update_doc = update.execute()
+    os.remove("blogger.dat")
+    g.es("post_id 為", post_id)
+    g.es("已經將更新資料送往 Blogger!")
+except(client.AccessTokenRefreshError):
+    g.es("error")
+</pre></p>
+<h2>W14</h2>
+<p>從 https://2019wcm.blogspot.com/2019/03/posted-via-python.html 取得Google Blogger Python API 程式, 修改後執行, 測試是否可以讀取設定的 client_secrets.json, 在各自的 Blogger ID 與 Post ID 中新增或修改網誌文章.</p>
+<p>以 Blogger Python API 程式修改文章的教學影片 (for @gm users only)</p>
+<p>直接在操作系統建立網際內容管理合用系統</p>
+<p>Windows 10 64 位元操作系統</p>
+<p>安裝 Python 3.8.3 與 pip</p>
+<p>至 https://www.python.org/downloads/windows/ 下載 Python 3.8.3 Windows x86-64 executable installer</p>
+<p>可以直接選擇安裝 pip 與所有選項內容</p>
+<p>安裝 Git</p>
+<p>利用 64-bit Git for Windows Setup 安裝 Git 工具.</p>
+<p>安裝 CMSiMDE 所需模組</p>
+<p>利用 cmd 開啟命令列視窗, 以 pip 安裝 flask flask_cors lxml bs4 markdown pelican leo 等模組</p>
+<p>pip install  flask flask_cors lxml bs4 markdown pelican leo</p>
+<p>Ubuntu 20.04 操作系統 (請下載 W12 Virtualbox 虛擬主機檔案)</p>
+<p>Ubuntu 20.04 同時存在 Python 2.7 與 Python 3.8.2,  CMSiMDE 只相容於 Python 3.8.2, 因此啟動指令必須使用:</p>
+<p>python3 wsgi.py</p>
+<p>與 </p>
+<p>pip3 install  flask flask_cors lxml bs4 markdown pelican leo</p>
+<p>Mac OS X 操作系統</p>
+<p>與 Ubuntu 2</p>
+            </section>
+
+            <section class="post-info">
+                <div class="post-share">
+                    <a class="twitter" href="https://twitter.com/share?text=2020 五專網路安全管理G1(2)&amp;url=./2020-WCM-W9-16-summary.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
+                    </a>
+                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=./2020-WCM-W9-16-summary.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
+                    </a>
+                    <a class="googleplus" href="https://plus.google.com/share?url=./2020-WCM-W9-16-summary.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <i class="ic ic-googleplus"></i><span class="hidden">Google+</span>
+                    </a>
+                    <div class="clear"></div>
+                </div>
+
+                <aside class="post-tags">
+<a href="./tag/2020wcm.html">2020WCM</a>                </aside>
+
+                <div class="clear"></div>
+
+
+                </section>
+
+
+                <aside class="post-nav">
+                    <a class="post-nav-next" href="./2020-WCM-W2-8-summary.html">
+                        <section class="post-nav-teaser">
+                            <i class="ic ic-arrow-left"></i>
+                                <h2 class="post-nav-title">2020 五專網路安全管理G1(1)</h2>
+                            <p class="post-nav-excerpt">總結這學期上課，所學和網管相關知識</p>
+                        </section>
+                    </a>
+                    <div class="clear"></div>
+                </aside>
+
+            </div>
+        </article>
+    </main>
+      <!-- TODO : Body class -->
+    <div id="body-class" style="display: none;" class=""></div>
+
+    <footer id="footer">
+      <div class="inner">
+        <section class="credits">
+
+
+          <span class="credits-theme">Theme <a href="https://github.com/arulrajnet/attila" rel="nofollow">Attila</a></span>
+          <span class="credits-software">Published with <a href="https://github.com/getpelican/pelican" rel="nofollow">Pelican</a></span>
+        </section>
+      </div>
+    </footer>
+  </section>
+  
+  <script type="text/javascript" src="./theme/js/script.js"></script>
+
+ 
+
+
+</body>
+</html>
